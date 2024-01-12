@@ -1,0 +1,1 @@
+document.write("hello good morning ,how are you ")

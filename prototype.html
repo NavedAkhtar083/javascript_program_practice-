@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Moblie = function(model_no)
+        {
+            this.model = model_no;
+            this.price =  3000;
+
+        };
+        var samsung=new Moblie('galaxy');
+        var nokia=new Moblie(3310);
+        samsung.color="white";
+        Moblie.prototype.color='white';
+        document.write(samsung.color+"<br>");
+        console.log(samsung);
+        document.write(nokia.color+"<br>");
+        console.log(nokia );
+        var check=Object.keys(samsung);
+        document.write(check);
+        
+
+    </script>
+</body>
+</html>
